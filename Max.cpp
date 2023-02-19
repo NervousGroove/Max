@@ -31,13 +31,14 @@ void loop()
       dado_recebido = Serial.read();
       switch(dado_recebido)
       {
+        //If Max receives the A (Capital) signal from the smartphone, he will walk forward.
         case 'A':
                   digitalWrite(LED3,HIGH);
                   digitalWrite(LED8,LOW);
                   Serial.println("Received Max Command:");
                   Serial.println("Walk Forward");
         break;
-
+        //If Max receives the a (Minuscule) signal from the smartphone, he will walk to the RIGHT side.
         case 'a':
                   digitalWrite(LED3,LOW);
                   digitalWrite(LED8,HIGH);
@@ -45,7 +46,7 @@ void loop()
                   Serial.println("Walking on the Right Side");
                   
         break;
-
+        //If Max receives the B (Capital) signal from the smartphone, he will walk to the LEFT side.
         case 'B':
                   digitalWrite(LED3,LOW);
                   digitalWrite(LED8,HIGH);
@@ -53,7 +54,7 @@ void loop()
                   Serial.println("Walk to the Left Side");
                   
         break;
-
+        //If Max receives the b (Minuscule) signal from the smartphone, he will walk to the backwards.   
         case 'b':
                   digitalWrite(LED3,LOW);
                   digitalWrite(LED8,HIGH);
