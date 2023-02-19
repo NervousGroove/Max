@@ -10,6 +10,7 @@ int MaxInput10 = 10;
 int MaxInput9 = 9;
 int MaxInput8 = 8;
 
+//Max Tip: The setup() function is executed only once, usually used for Max project setups.
 void setup()
 {
   pinMode(MaxInput13, OUTPUT);
@@ -20,6 +21,7 @@ void setup()
   pinMode(MaxInput8, OUTPUT);
 }
 
+//Max's tip: The loop() function, always executed (as long as the program is active), is the main part of the Max project, and of any other Arduino project.
 void loop()
 {
 
