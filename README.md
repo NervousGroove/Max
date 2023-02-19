@@ -15,4 +15,4 @@ The Max project is licensed under CC-NC-ND (https://creativecommons.org/licenses
 # 💻 Created with various software and technologies
 Max is being developed with various software, and I am grateful to all of them and their respective developers, see the software: TinkerCad (By Autodesk), MythCoder (By SwankyNoob), Github (By Github Inc.), and others.
 
-![error](https://raw.githubusercontent.com/NervousGroove/SpellSpike/main/SpellSpike.png)
+![error](https://raw.githubusercontent.com/NervousGroove/MaxShadow/main/Max.png)
