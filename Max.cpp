@@ -3,12 +3,7 @@
 //CC-NC-ND
 //Date of this Update: 02.19.2023
 
-int MaxInput1 = 13;
-int MaxInput2 = 12;
-int MaxInput3 = 11;
-int MaxInput4 = 10;
-int MaxInput5 = 9;
-int MaxInput6 = 8;
+char dado_recebido = 0;
 
 //Max Tip: The setup() function is executed only once, usually used for Max project setups.
 void setup()
