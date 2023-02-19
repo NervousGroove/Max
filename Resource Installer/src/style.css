@@ -1,0 +1,249 @@
+html, body {
+  padding: 0px;
+  margin: 0px;
+  background: #000;
+  font-family: "Raleway", sans-serif;
+  color: #FFF;
+  height: 100%;
+  overflow: hidden;
+  font-weight: 100;
+}
+
+body {
+  display: block;
+  padding: 0px 20px;
+}
+body * {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+.window {
+  max-width: 600px;
+  min-width: 420px;
+  margin: 40px auto 0px auto;
+}
+
+.microsoft {
+  font-family: "Raleway", sans-serif;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  -webkit-animation: openwindows 0.2s;
+          animation: openwindows 0.2s;
+  transform-origin: bottom center;
+}
+.microsoft .header {
+  display: flex;
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 40px;
+  font-weight: 100;
+  height: 40px;
+  background: limegreen;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+.microsoft .header .title {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  padding: 0px 10px;
+  display: flex;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.microsoft .header .title .icon {
+  width: 30px;
+  position: relative;
+  display: inline-block;
+  top: 6px;
+}
+.microsoft .header .title .text {
+  flex: 1;
+  height: 25px;
+  top: 7px;
+  position: relative;
+  padding: 0px 8px;
+  line-height: 25px;
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.microsoft .header .buttons {
+  display: flex;
+  width: 160px;
+  height: 30px;
+}
+.microsoft .header .buttons .btn {
+  flex: 1;
+  text-align: center;
+}
+.microsoft .header .buttons .btn:hover {
+  cursor: pointer;
+}
+.microsoft .header .buttons .btn:hover.minus {
+  background: rgba(0, 0, 0, 0.25);
+}
+.microsoft .header .buttons .btn:hover.expand {
+  background: rgba(0, 0, 0, 0.25);
+}
+.microsoft .header .buttons .btn:hover.close {
+  background: rgba(150, 0, 0, 0.5);
+}
+.microsoft .header .buttons .btn i {
+  position: relative;
+  display: inline-block;
+  top: -1px;
+  font-size: 20px;
+}
+.microsoft .form {
+  min-height: 60px;
+  background: #333;
+}
+.microsoft .form .top {
+  padding: 10px;
+  display: flex;
+}
+.microsoft .form .top .icon {
+  width: 50px;
+  padding: 0px 10px 0px 0px;
+}
+.microsoft .form .top .icon .amd {
+  background: #000;
+  box-shadow: none;
+}
+.microsoft .form .top .icon .amd .amd-border, .microsoft .form .top .icon .amd .amd-border:after, .microsoft .form .top .icon .amd .amd-top:after {
+  background: #000;
+}
+.microsoft .form .top .loader {
+  flex: 1;
+}
+.microsoft .form .top .loader .text {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.microsoft .form .top .loader .bar {
+  min-height: 20px;
+  background: limegreen;
+  width: 100%;
+  transition: 0.2s all;
+  -webkit-animation: 0.4s opacitize;
+          animation: 0.4s opacitize;
+}
+.microsoft .middle {
+  padding: 0px 10px 10px 10px;
+}
+.microsoft .middle .display {
+  height: 200px;
+  background: rgba(0, 0, 0, 0.25);
+  padding: 5px;
+  font-size: 12px;
+  color: #32c832;
+  font-weight: 300;
+  overflow-y: auto;
+  box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.5);
+}
+.microsoft .bottom {
+  min-height: 40px;
+  display: flex;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 0px 10px;
+  line-height: 30px;
+}
+.microsoft .bottom .btn {
+  width: 80px;
+  text-align: center;
+  height: 30px;
+  position: relative;
+  background: #000;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: all 0.2s;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.microsoft .bottom .btn:not(:first-child) {
+  margin-left: 4px;
+}
+.microsoft .bottom .btn:active {
+  box-shadow: none;
+}
+.microsoft .bottom .text {
+  color: rgba(255, 255, 255, 0.1);
+  flex: 1;
+  text-align: center;
+}
+
+.amd {
+  display: inline-block;
+  width: 100%;
+  padding: 5%;
+  background: #000;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+}
+.amd .amd-border {
+  width: 100%;
+  background: #000;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 100%;
+}
+.amd .amd-border:after {
+  content: "";
+  width: 45%;
+  height: 45%;
+  background: #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.amd .amd-border .amd-top {
+  position: absolute;
+  background: #019966;
+  top: 0%;
+  left: 0%;
+  width: 200%;
+  height: 200%;
+  transform: rotateZ(-45deg);
+  transform-origin: top left;
+}
+.amd .amd-border .amd-bottom {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 55%;
+  background: #019966;
+  transform: rotateZ(-45deg) translateX(-30%) translateY(-30%);
+}
+
+@-webkit-keyframes opacitize {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes opacitize {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
