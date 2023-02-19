@@ -1,2 +1,14 @@
-# MaxShadow
-Max, is a robot capable of performing movements from its own, created by the Brazilian developer, SwankyNoob.
+# 🍕 Max
+Project Max, is a robot capable of making any movement, based on its movements. This is possible, because of its programming, and its device, which is worn on the user's hand, called MaxFireshock. It sounds like a crazy idea, but Max is under construction! In this repository are all Max scripts (in C).
+
+# 🤖 Arduino-based
+Max is being built with Arduino (C), and covers several other technologies.
+
+# 🔥 From Brazil to the World
+Max is being created by just one person, Yan (CEO/Founder of SwankyNoob). The Brazilian Yan, or also known as Wesley Yan Soares Brehmer, started this project when he was only 14 years old, and never stopped, even though it seemed impossible to build something like this.
+
+# 📚 LICENSE
+The Max project is licensed under CC-NC-ND (https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+# 💻 Created with various software and technologies
+Max is being developed with various software, and I am grateful to all of them and their respective developers, see the software: TinkerCad (By Autodesk), MythCoder (By SwankyNoob), Github (By Github Inc.), and others.
