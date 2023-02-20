@@ -1,7 +1,7 @@
 //C++ code
 //Max By SwankyNoob
 //CC-NC-ND
-//Date of this Update: 02.19.2023 (Version 1.0.0)
+//Date of this Update: 02.19.2023 (Version 1.0.1)
 
 char dado_recebido = 0;
 int MaxVersionInfo = 100;
