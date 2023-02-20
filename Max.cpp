@@ -4,6 +4,7 @@
 //Date of this Update: 02.19.2023 (Version 1.0.0)
 
 char dado_recebido = 0;
+int MaxVersionInfo = 100;
 
 //Max Tip: The setup() function is executed only once, usually used for Max project setups.
 void setup()
@@ -15,7 +16,7 @@ void setup()
   pinMode(MaxInput5, OUTPUT);
   pinMode(MaxInput6, OUTPUT);
   Serial.begin(9600);
-  Serial.println("Max version: 1.0.1");
+  Serial.println("Max version: " + MaxVersionInfo);
   Serial.println("Developed by SwankyNoob, license CC-NC-ND");
 }
 
