@@ -10,3 +10,5 @@
 //a = Walk to the RIGHT side
 //B = Walk to the LEFT side
 //b = Walk to the BACKWARDS
+
+//Important Information: You have to link the buttons in the app, manually, indicating each signal that will be emitted by the Bluetooth.
