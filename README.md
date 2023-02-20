@@ -1,7 +1,7 @@
 ![Wesley Y](https://img.shields.io/badge/Created%20by%20One%20Man-Started%20when%20I%20was%2014%20years%20old-blue)
 
 # 🍕 Max
-Project Max, is a robot capable of making any movement, based on its movements. This is possible, because of its programming, and your smartphone. It sounds like a crazy idea, but Max is under construction! In this repository are all Max scripts (in C++).
+Project Max, is a drone capable of making any movement, based on its movements. This is possible, because of its programming, and your smartphone. It sounds like a crazy idea, but Max is under construction! In this repository are all Max scripts (in C++).
 
 # 🤖 Arduino-based
 Max is being built with Arduino (C++), and covers several other technologies.
