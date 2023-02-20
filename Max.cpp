@@ -1,7 +1,7 @@
 //C++ code
 //Max By SwankyNoob
 //CC-NC-ND
-//Date of this Update: 02.19.2023
+//Date of this Update: 02.19.2023 (Version 1.0.0)
 
 char dado_recebido = 0;
 
@@ -15,6 +15,8 @@ void setup()
   pinMode(MaxInput5, OUTPUT);
   pinMode(MaxInput6, OUTPUT);
   Serial.begin(9600);
+  Serial.println("Max version: 1.0.1");
+  Serial.println("Developed by SwankyNoob, license CC-NC-ND");
 }
 
 //Max's tip: The loop() function, always executed (as long as the program is active), is the main part of the Max project, and of any other Arduino project.
