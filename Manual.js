@@ -10,5 +10,5 @@ Average Cost for Assembly (Based on 2023, in the Mercado Libre):
 
 Total: $34.05
 
-{+ Camera = $5,00 [https://shre.ink/minicamera]}
+{+ Camera = $5,00 [https://shre.ink/minicamera2]}
 */
