@@ -47,3 +47,6 @@ void loop()
   Serial.write(lowByte(valor_pot));  
   delay(50);  
 }  
+
+
+//https://www.arduinoecia.com.br/comunicacao-arduino-android-com-bluetooth/
