@@ -15,6 +15,9 @@ The Max project is licensed under CC-NC-ND (https://creativecommons.org/licenses
 # 💻 Created with various software and technologies
 Max is being developed with various software, and I am grateful to all of them and their respective developers, see the software: TinkerCad (By Autodesk), MythCoder (By SwankyNoob), Github (By Github Inc.), and others.
 
+#  🏗 Edit with Tinkercad
+You can edit Max in Tinkercad. Tinkercad is a great way to edit Arduino projects directly from your browser, without downloading anything! Edit now: https://shre.ink/maxtinkercad
+
 # 🧳 Specifications:
 - Camera Quality: Full HD
 - Terrain Supported: Any
