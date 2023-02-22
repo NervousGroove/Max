@@ -13,12 +13,10 @@ int RearEngine2 = 10;
 //Max Tip: The setup() function is executed only once, usually used for Max project setups.
 void setup()
 {
-  pinMode(MaxInput1, OUTPUT);
-  pinMode(MaxInput2, OUTPUT);
-  pinMode(MaxInput3, OUTPUT);
-  pinMode(MaxInput4, OUTPUT);
-  pinMode(MaxInput5, OUTPUT);
-  pinMode(MaxInput6, OUTPUT);
+  pinMode(FrontEngine, OUTPUT);
+  pinMode(FrontEngine2, OUTPUT);
+  pinMode(RearEngine, OUTPUT);
+  pinMode(RearEngine2, OUTPUT);
   Serial.begin(9600);
   Serial.println("Max version: " + MaxVersionInfo);
   Serial.println("Developed by SwankyNoob, license CC-NC-ND");
