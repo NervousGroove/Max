@@ -18,6 +18,7 @@ Max is being developed with various software, and I am grateful to all of them a
 # 🧳 Specifications:
 - Camera Quality: Full HD
 - Terrain Supported: Any
+- Battery Life: Undetermined
 -----------------------
 
 ![Max](https://raw.githubusercontent.com/NervousGroove/MaxShadow/main/Max.png)
