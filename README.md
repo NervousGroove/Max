@@ -25,3 +25,5 @@ You can edit Max in Tinkercad. Tinkercad is a great way to edit Arduino projects
 -----------------------
 
 ![Max](https://raw.githubusercontent.com/NervousGroove/MaxShadow/main/Max.png)
+
+---> ALL RIGHTS RESERVED, SWANKYNOOB INC. | ESTABLISHED AND MANAGED BY Wesley YAN Soares Brehmer
